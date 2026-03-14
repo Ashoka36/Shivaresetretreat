@@ -18,7 +18,7 @@ A stunning, fully responsive website for **Shiva's Reset Retreat** with an **Aur
 4. **Ground Yourself** - Bhajan concert and wellness
 5. **Pet Parent Retreat** - Animal welfare packages
 6. **Gallery** - Photo showcase section
-7. **CTA Section** - WhatsApp booking button
+7. **CTA Section** - Secure booking button
 8. **Footer** - Contact information
 
 ### Photo Placeholders
@@ -101,10 +101,7 @@ Edit the CSS variables in `styles.css`:
 ```
 
 #### Update Contact Info
-Change the WhatsApp link in the CTA section:
-```html
-<a href="https://wa.me/917676432449">Book Your Retreat</a>
-```
+Contact information is securely masked in the website. Users click "Book Your Retreat" to reveal contact details.
 
 ## 📱 Responsive Breakpoints
 
@@ -151,9 +148,9 @@ Change the WhatsApp link in the CTA section:
 
 ## 📞 Contact & Booking
 
-**WhatsApp:** [+91 7676432449](https://wa.me/917676432449)  
-**Phone:** +44 7557431871  
 **Location:** Palolem, Goa - India
+
+Contact information is securely masked on the website for privacy and security.
 
 ## 📄 License
 
