@@ -208,14 +208,6 @@ body {
     box-shadow: 0 0 20px rgba(125, 249, 255, 0.5);
 }
 
-.collage-image {
-    width: 100%;
-    max-width: 1200px;
-    display: block;
-    margin: 40px auto;
-    border-radius: 14px;
-}
-
 /* ============================================
    CONTENT SECTIONS
    ============================================ */
