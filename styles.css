@@ -1084,3 +1084,61 @@ button, a {
 input, select, textarea {
     font-size: 16px;
 }
+
+/* --- INVESTOR THEME UPDATE: PURPLE & SANSKRIT STYLE --- */
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@400;700&family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --obsidian-purple: #10002B; /* From Marcelo Design X */
+  --neon-purple: #7B2CBF; /* From Marcelo Design X */
+  --deep-violet: #3C096C; /* From Marcelo Design X */
+  --pure-white: #FFFFFF;
+}
+
+/* Override old Blue Background */
+body, .main-container, #app {
+  background-color: var(--obsidian-purple) !important;
+  background-image: none !important; /* Removes Aurora Blue gradients */
+  color: var(--pure-white) !important;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600; /* Bolder fonts */
+  font-size: 16px; /* Bigger base font size */
+}
+
+/* Sanskrit-Style Heading with Glow (Replaces Yellow) */
+h1, h2, .title, .sanskrit-style {
+  font-family: 'Karma', serif !important;
+  color: var(--neon-purple) !important;
+  font-weight: 700 !important; /* Bolder headings */
+  font-size: 2.5em; /* Bigger headings */
+  text-shadow: 
+    0 0 7px var(--neon-purple),
+    0 0 15px var(--neon-purple),
+    0 0 30px var(--deep-violet) !important;
+  transition: all 0.3s ease;
+}
+
+/* Increase other text sizes for readability */
+h3 {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+p, .section-text {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+/* Remove all Yellow Font Colors */
+.yellow-text, [style*="color: yellow"], [style*="color: #ffff00"] {
+  color: var(--pure-white) !important;
+}
+
+/* Om Symbol Styling */
+.om-symbol {
+  font-family: 'Karma', serif;
+  font-size: 2em;
+  color: var(--neon-purple);
+  margin-left: 10px;
+  text-shadow: 0 0 10px var(--neon-purple);
+}
