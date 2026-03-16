@@ -154,7 +154,7 @@ Contact information is securely masked on the website for privacy and security.
 
 ## 📄 License
 
-© 2024 Shiva's Reset Retreat. All rights reserved.
+© 2026 Shiva's Reset Retreat. All rights reserved.
 
 ## 🤝 Support
 
