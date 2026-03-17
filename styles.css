@@ -202,7 +202,7 @@ body {
 .aurora-line {
     width: 200px;
     height: 3px;
-    background: linear-gradient(90deg, var(--aurora-cyan), var(--aurora-purple), var(--aurora-green));
+    background: linear-gradient(90deg, var(--aurora-green), var(--aurora-purple), var(--aurora-yellow));
     margin: 30px auto;
     border-radius: 2px;
     box-shadow: 0 0 20px rgba(125, 249, 255, 0.5);
